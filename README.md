@@ -62,11 +62,4 @@ El sistema busca mejorar la gestión operativa mediante herramientas que permita
 - JavaScript
 - Bootstrap
 
----
 
-## Instalación
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/sedada.git
