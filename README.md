@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LOGO - SEDADA.docx.jpeg" alt="SEDADA Logo" width="220">
+  <img src= LOGO - SEDADA.jpeg alt="SEDADA Logo" width="220">
 </p>
 
 <h1 align="center">SEDADA</h1>
