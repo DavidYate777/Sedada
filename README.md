@@ -48,8 +48,6 @@ Aplicación web desarrollada en **Java 17**, utilizando el patrón de arquitectu
 
 <img src="https://img.shields.io/badge/Platform-Web-blue?style=flat-square" alt="Web Platform">
 
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License">
-
 </div>
 
 ---
@@ -66,11 +64,29 @@ El proyecto se encuentra actualmente en **desarrollo y evolución**.
 
 ---
 
+## Propósito
+
+El propósito principal de SEDADA es desarrollar una solución tecnológica que permita digitalizar y centralizar diferentes procesos administrativos de un restaurante.
+
+El proyecto está orientado a aplicar conocimientos relacionados con:
+
+* Desarrollo de software.
+* Programación orientada a objetos.
+* Desarrollo de aplicaciones web.
+* Arquitectura MVC.
+* Bases de datos relacionales.
+* Conectividad mediante JDBC.
+* Gestión de información.
+* Control de acceso.
+* Desarrollo y ejecución de aplicaciones Java.
+
+---
+
 ## Tecnologías utilizadas
 
-<div align="center">
-
 ### Lenguaje de programación
+
+<div align="center">
 
 <a href="https://www.java.com/">
 <img src="https://img.shields.io/badge/Java%2017-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17">
@@ -80,20 +96,13 @@ El proyecto se encuentra actualmente en **desarrollo y evolución**.
 
 **Java 17** es el lenguaje principal utilizado para el desarrollo de SEDADA.
 
-El proyecto aplica conceptos de:
-
-* Programación orientada a objetos.
-* Clases y objetos.
-* Encapsulamiento.
-* Herencia.
-* Polimorfismo.
-* Separación de responsabilidades.
+El proyecto aplica conceptos de programación orientada a objetos y separación de responsabilidades.
 
 ---
 
-<div align="center">
-
 ### Entorno de desarrollo
+
+<div align="center">
 
 <a href="https://netbeans.apache.org/">
 <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" alt="Apache NetBeans">
@@ -105,9 +114,9 @@ El proyecto aplica conceptos de:
 
 ---
 
-<div align="center">
-
 ### Desarrollo web
+
+<div align="center">
 
 <a href="https://jakarta.ee/">
 <img src="https://img.shields.io/badge/JSP-6DB33F?style=for-the-badge" alt="JSP">
@@ -125,15 +134,17 @@ El proyecto aplica conceptos de:
 
 Las tecnologías web utilizadas permiten construir y presentar la interfaz de usuario de la aplicación.
 
-* **JSP:** generación de vistas dinámicas.
-* **HTML5:** estructura de las páginas.
-* **CSS3:** diseño y estilos de las interfaces.
+| Tecnología | Uso                                |
+| ---------- | ---------------------------------- |
+| **JSP**    | Generación de vistas dinámicas     |
+| **HTML5**  | Estructura de las páginas          |
+| **CSS3**   | Diseño y estilos de las interfaces |
 
 ---
 
-<div align="center">
+## Arquitectura
 
-### Arquitectura
+<div align="center">
 
 <img src="https://img.shields.io/badge/MVC-Model%20View%20Controller-6DB33F?style=for-the-badge" alt="MVC">
 
@@ -155,7 +166,7 @@ SEDADA utiliza el patrón **Modelo–Vista–Controlador (MVC)** como arquitectu
                  BASE DE DATOS
 ```
 
-Esta arquitectura permite mantener una organización estructurada del código y separar las responsabilidades de los diferentes componentes.
+La arquitectura permite mantener una organización estructurada del código y separar las responsabilidades de los diferentes componentes del sistema.
 
 ---
 
@@ -177,19 +188,19 @@ Esta arquitectura permite mantener una organización estructurada del código y 
 
 </div>
 
-El proyecto utiliza sistemas de gestión de bases de datos relacionales para el almacenamiento y administración de la información.
+SEDADA utiliza sistemas de gestión de bases de datos relacionales para el almacenamiento y administración de información.
 
 ### PostgreSQL
 
-PostgreSQL constituye la tecnología principal de base de datos utilizada en el proyecto.
+**PostgreSQL** constituye la tecnología principal de base de datos utilizada en el proyecto.
 
 ### Supabase
 
-Supabase se utiliza como plataforma relacionada con la infraestructura y gestión de PostgreSQL.
+**Supabase** se contempla como plataforma relacionada con la infraestructura y gestión de PostgreSQL.
 
 ### MySQL
 
-MySQL forma parte del entorno tecnológico utilizado durante el desarrollo y las pruebas.
+**MySQL** forma parte del entorno tecnológico utilizado durante el desarrollo y las pruebas.
 
 ### JDBC
 
@@ -229,19 +240,19 @@ MySQL forma parte del entorno tecnológico utilizado durante el desarrollo y las
 
 </div>
 
-| Herramienta     | Utilización                             |
-| --------------- | --------------------------------------- |
-| Git             | Control de versiones                    |
-| GitHub          | Gestión y alojamiento del código fuente |
-| Google Chrome   | Pruebas y validación de la aplicación   |
-| Apache NetBeans | Desarrollo del proyecto                 |
-| GlassFish       | Ejecución de la aplicación web          |
+| Herramienta         | Utilización                             |
+| ------------------- | --------------------------------------- |
+| **Git**             | Control de versiones                    |
+| **GitHub**          | Gestión y alojamiento del código fuente |
+| **Google Chrome**   | Pruebas y validación de la aplicación   |
+| **Apache NetBeans** | Desarrollo del proyecto                 |
+| **GlassFish**       | Ejecución de la aplicación web          |
 
 ---
 
 ## Áreas principales
 
-SEDADA está orientado a la gestión de diferentes áreas de un restaurante:
+SEDADA está orientado a la gestión de diferentes áreas relacionadas con un restaurante:
 
 * Usuarios.
 * Productos.
@@ -274,46 +285,6 @@ La implementación y evolución de estas áreas continúa durante el desarrollo 
 
 ---
 
-## Requisitos
-
-Para trabajar con el proyecto se recomienda disponer de:
-
-<a href="https://www.java.com/">
-<img src="https://img.shields.io/badge/JDK%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="JDK 17">
-</a>
-
-<a href="https://netbeans.apache.org/">
-<img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=flat-square&logo=apache-netbeans-ide&logoColor=white" alt="Apache NetBeans">
-</a>
-
-<a href="https://glassfish.org/">
-<img src="https://img.shields.io/badge/GlassFish-2C2255?style=flat-square&logo=glassfish&logoColor=white" alt="GlassFish">
-</a>
-
-<a href="https://www.postgresql.org/">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-</a>
-
-<a href="https://git-scm.com/">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-</a>
-
----
-
-## Instalación
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/TU-USUARIO/SEDADA.git
-```
-
-Abrir el proyecto utilizando **Apache NetBeans** y verificar la configuración del **JDK 17**.
-
-Posteriormente, configurar el servidor de aplicaciones y los parámetros correspondientes de la base de datos según el entorno de desarrollo.
-
----
-
 ## Seguridad
 
 El proyecto contempla prácticas orientadas a mejorar la seguridad de la aplicación, entre ellas:
@@ -342,28 +313,6 @@ El proyecto continúa evolucionando mediante la implementación de nuevas funcio
 
 ---
 
-## Autor
-
-<div align="center">
-
-### Luis David Yate Pulido
-
-Estudiante de Desarrollo de Software
-
-</div>
-
-Proyecto desarrollado con fines académicos y de aprendizaje, aplicando conocimientos de programación, desarrollo web, bases de datos, arquitectura MVC y programación orientada a objetos.
-
----
-
-## Licencia
-
-Este proyecto está distribuido bajo la licencia **MIT**.
-
-Consulta el archivo [LICENSE](LICENSE) para conocer los términos y condiciones de uso.
-
----
-
 <div align="center">
 
 # SEDADA
@@ -372,17 +321,13 @@ Consulta el archivo [LICENSE](LICENSE) para conocer los términos y condiciones 
 
 <br>
 
-<a href="https://github.com/TU-USUARIO/SEDADA">
-<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
-</a>
-
-<br><br>
-
 <img src="https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
 
 <img src="https://img.shields.io/badge/MVC-Architecture-6DB33F?style=flat-square" alt="MVC">
 
 <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+
+<img src="https://img.shields.io/badge/Supabase-Platform-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
 
 <img src="https://img.shields.io/badge/GlassFish-Server-2C2255?style=flat-square&logo=glassfish&logoColor=white" alt="GlassFish">
 
